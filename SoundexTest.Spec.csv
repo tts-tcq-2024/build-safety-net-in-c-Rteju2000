@@ -1,0 +1,15 @@
+Test Scenario,Test Case ID,Test case name,Test Input,Expected Output
+Test Empty String Handling,TC001,Test Empty String Outputs 0000,"""""","""0000"""
+Test Single Letter Pads With Zeros,TC002,Test Returns Letter followed by three zeros,C,C000
+Test Mappings,TC003,Test common name priya  returns P101,Priya,P101 
+Test  case-insensitive.,TC004,Test case JOHN,John,J500
+Test Special characters ,TC005,Test Special characters (-)discarded,Anne-Marie,A550
+Test Special characters  with space ,TC006,Test space ignored,Anna Smith,A523
+Test Special Characters  handling of multi-word names.,TC007,Test spaces multi wordname ignored,Rajesh Kumar,R622
+Test digits and special characters are ignored.,TC008,Test characters and digits discarded,Alice! Smith@2024,A422
+Test Padding and Trimming,TC009,Test padded with zeros ,Lee,L400
+Test Repeated Consonants,TC011,Test repeated consonant codes are reduced,Matthews,M530
+Test Hyphens,TC012,Test name with hyphens ignored,Smith-Jones,S253
+Test Handling Mixed Characters,TC013,Test numbers with name ignored,JohnDoe,J205
+Test Case Insensitivity with Special Characters,TC014,Test independence returns,"a-Lice, JONES",L422
+Test Handling numbers,TC015,Test remove numbres,C3raig,C262
